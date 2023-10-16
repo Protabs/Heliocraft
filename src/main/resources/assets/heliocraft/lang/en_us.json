@@ -1,6 +1,10 @@
 {
   "item.heliocraft.mirror": "Mirror",
   "item.heliocraft.baseprism": "Basic Prism",
+  "item.heliocraft.panda": "大熊猫",
+
+  "block.heliocraft.mirror_block": "Mirror Block",
+  "block.heliocraft.prism_block": "Prism Block",
 
   "creativetab.heliocraft_tab": "Heliocraft"
 }

@@ -14,6 +14,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.protabs.heliocraft.block.ModBlocks;
 import net.protabs.heliocraft.item.ModCreativeModTabs;
 import net.protabs.heliocraft.item.ModItems;
 import org.slf4j.Logger;
@@ -35,6 +36,8 @@ public class Heliocraft
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -60,6 +63,7 @@ public class Heliocraft
         if(event.getTabKey() ==CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.MIRROR);
             event.accept(ModItems.BASIC_PRISM);
+            event.accept(ModItems.PANDA_DEBUG);
         }
     }
 

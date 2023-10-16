@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "heliocraft:mirror_block"
+    }
+  ],
+  "result": {
+    "item": "heliocraft:mirror",
+    "count":  9
+  }
+}
