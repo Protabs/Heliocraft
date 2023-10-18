@@ -2,9 +2,13 @@
   "item.heliocraft.mirror": "Mirror",
   "item.heliocraft.baseprism": "Basic Prism",
   "item.heliocraft.panda": "大熊猫",
+  "item.heliocraft.metal_detector": "Metal Detector",
 
   "block.heliocraft.mirror_block": "Mirror Block",
   "block.heliocraft.prism_block": "Prism Block",
 
-  "creativetab.heliocraft_tab": "Heliocraft"
+  "creativetab.heliocraft_tab": "Heliocraft",
+
+
+  "item.heliocraft.metal_detector.no_valuables": "No valuables found!"
 }

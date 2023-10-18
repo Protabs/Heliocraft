@@ -22,6 +22,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.MIRROR.get());
                         pOutput.accept(ModItems.BASIC_PRISM.get());
                         pOutput.accept(ModItems.PANDA_DEBUG.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
 
                         pOutput.accept(ModBlocks.MIRROR_BLOCK.get());
                         pOutput.accept(ModBlocks.PRISM_BLOCK.get());
